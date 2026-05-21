@@ -35,7 +35,7 @@
 * **선택 기반 데이터 적재 알고리즘:** 사용자가 2지선다형 게임인 '여행지 올림픽' 콘텐츠를 진행할 때 발생하는 선택 데이터를 실시간 트래킹하고, 결과 값을 해당 유저의 고유 식별자(`UID`)에 바인딩하여 DB 세션에 영속화(`Persistence`)하는 백엔드 프로세스 구현.
 
 #### 🖼️ 구현 화면 아카이브
-![어디갈래 구현화면]
+
 <img width="650" height="472" alt="어플리케이션" src="https://github.com/user-attachments/assets/8c792669-7709-4b14-b859-9b6d784c616a" />
 <img width="1194" height="587" alt="어플리케이션2" src="https://github.com/user-attachments/assets/109dfbfd-3096-4a0f-83bc-9ac4e2d935cc" />
 
@@ -57,7 +57,7 @@
   * **[해결]** 플랫폼 간 데이터 규격 불일치 문제를 해결하기 위해 표준 데이터 포맷인 **`JSON`**을 도입. 웹 서버단에서 `MySQL` 데이터를 `JSON` 스트링으로 직렬화(`Serialization`)하여 송출하는 API를 구축하고, 앱 단에서 이를 파싱(`Parsing`)하여 화면에 유기적으로 바인딩하는 외부 원격 데이터 통신 구조를 완수함.
 
 #### 🖼️ 데이터 아키텍처 및 구현 화면
-![Online Portfolio Guy DB 설계도]
+
 
 <img width="829" height="453" alt="웹앱1" src="https://github.com/user-attachments/assets/744d58e7-3f4b-4f66-a446-a22659af141b" />
 <img width="624" height="322" alt="웹앱2" src="https://github.com/user-attachments/assets/9a9f9723-556d-47ee-af9d-85cef9b1f3f7" />
